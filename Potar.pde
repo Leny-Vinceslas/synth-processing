@@ -32,14 +32,7 @@ class Potar
  // function check the mouse position
   boolean check(float x_,float y_) 
   { 
-    if(x_>x-22 && x_<x+22 && y_>y-100 && y_<y+100) 
-    { 
-      return true; 
-    } 
-    else 
-    { 
-      return false; 
-    } 
+    return x_>x-22 && x_<x+22 && y_>y-100 && y_<y+100 ;
   } 
  
  // function moving the the potentiometer acording the mouse possition
